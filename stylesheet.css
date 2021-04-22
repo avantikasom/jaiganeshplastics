@@ -1,0 +1,132 @@
+.welcome-section{
+    width: 80%;
+    margin: auto;
+}
+.business-name{
+    color: #ddaa44;
+    font-family: 'Architects Daughter',sans-serif;
+    text-align: center;
+    font-size: 40px;
+}
+.welcome-content{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+}
+.about-us-container{
+    padding: 20px;
+    background: #f6f6f6;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+
+}
+.solution{
+    width: 80%;
+    margin: auto;
+}
+.solution-statement{
+    margin-top: 30px;
+    font-family: 'Roboto',sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    color: #ddaa44;
+}
+.product-container{
+    width: 500px;
+    padding: 16px;
+    font-family: 'Roboto',sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+.product-title{
+    font-family: 'Roboto',sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+.team-member-details{
+    font-family: 'Roboto',sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+.contact-title{
+    font-family: 'Roboto',sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+.product-image{
+    width: 300px;
+    height: 300px;
+    
+}
+.teams{
+    width: 80%;
+    margin: 30px auto;
+}
+.Contact-us{
+    width: 80%;
+    margin: 30px auto;
+}
+.contact-form{
+    width: 375px;
+    margin: 30px auto;
+}
+.contact-us-input{
+    width: 335px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 4px;
+    outline: none;
+    padding: 0px 0px 0px 16px;
+}
+.contact-us-input:focus{
+    outline: none;
+}
+.contact-us-textarea{
+    width: 335px;
+    height: 100px;
+    padding: 0px 0px 0px 16px;
+    border: 1px solid black;
+    border-radius: 4px;
+    outline: none;
+}
+.submit-btn{
+    width: 335px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: #d34;
+}
+/* Style the navigation bar */
+.navbar {
+    width: 100%;
+    background-color: rgb(190, 132, 132);
+    overflow: auto;
+    padding-left: 50px;
+  }
+  
+  /* Navbar links */
+  .navbar a {
+    float: left;
+    text-align: center;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Navbar links on mouse-over */
+  .navbar a:hover {
+    background-color: #000;
+  }
+  
+  /* Current/active navbar link */
+  
+  
+  /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+  }
